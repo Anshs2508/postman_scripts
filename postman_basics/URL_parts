@@ -1,1 +1,12 @@
+here are the Parts of Request URL:
+for example the full Request UPL is : https://smartist.in/about-us
+so,
 
+PROTOCOL = https://
+
+HOST = smartist.in
+
+PATH = /about-us
+
+QUERY PARAMETER:
+Query Parameters always starts with Question Mark[?]
