@@ -1,1 +1,18 @@
+HTTP Methods in Postman
+1. GET = Read/Get Data
+2. POST = Create New Data
+3. PUT = Update/Replace Full Data
+4. PATCH = Update Partial Data
+5. DELETE = Remove Data
+6. HEAD = Headers Only(No Body)
+7. OPTIONS = Allowed Method Info
+8. TRACE = Test or Debug
+9. CONNECT = Tunnel Connection
 
+These are the main methods of Postman:
+It's called CRUD:
+
+C = CREATE  /  POST
+R = READ    /  GET
+U = UPDATE  /  PUT/PATCH
+D = DELETE  /  DELETE
