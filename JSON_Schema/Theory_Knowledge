@@ -1,1 +1,30 @@
+(1) What is JSON Schema?
 
+ans.
+JSON Schema is a blueprint used to validate the structure of a JSON response.
+
+It defines:
+1.Which fields should be present
+2.Data type of each field
+3.Required fields
+4.Structure of arrays and objects
+
+=>As a QA Engineer, we use JSON Schema Validation to ensure that the API response matches the expected format.
+=>For example, if the developer accidentally changes the response structure, the schema validation test will fail and immediately indicate that something is wrong.
+
+
+(2) Why Do We Use JSON Schema?
+
+ans.
+To validate API response structure.
+To validate data types.
+To check mandatory fields.
+To identify unexpected API changes.
+To improve API test reliability.
+
+
+Interview Answer:
+What is JSON Schema?
+
+ans.
+JSON Schema is a blueprint used to validate the structure, data types, and required fields of a JSON response. It helps QA engineers verify that the API response matches the expected format.
