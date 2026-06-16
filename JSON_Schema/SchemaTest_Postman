@@ -1,0 +1,32 @@
+//JSON Schema Validation in Postman:
+
+/*Step 1: Create a Schema Variable
+In Postman Test Script:*/
+
+var schema = {
+    "type": "object",
+    "properties": {
+        "id": {
+            "type": "number"
+        },
+        "name": {
+            "type": "string"
+        },
+        "phone": {
+            "type": "string"
+        },
+        "courses": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        }
+    },
+    "required": [
+        "id",
+        "name",
+        "phone",
+        "courses"
+    ]
+};
+
